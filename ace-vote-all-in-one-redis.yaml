@@ -54,7 +54,7 @@ spec:
         "beta.kubernetes.io/os": linux
       containers:
       - name: ace-vote-front
-        image: hub.baidubce.com/ace-vote-front
+        image: hub.baidubce.com/luna/ace-vote-front:v1
         ports:
         - containerPort: 80
         resources:
